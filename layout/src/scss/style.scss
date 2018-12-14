@@ -1,0 +1,28 @@
+// cria nosso tema
+$my-color-1:#6655B5;
+$my-color-2:#FED21F;
+$my-color-3:#3B89BB;
+$my-color-4:#753C28;
+$my-color-5:#CE85CF;
+
+$theme-colors:("my-color-1":$my-color-1,
+"my-color-2":$my-color-2,
+"my-color-3":$my-color-3,
+"my-color-4":$my-color-4,
+"my-color-5":$my-color-5);
+
+// classes personalizadas
+$link-color:$my-color-4;
+
+// Deixa as imagens dos posts responsivas
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+// importa o bootstrap
+@import "node_modules/bootstrap/scss/bootstrap"
